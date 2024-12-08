@@ -6,7 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using N_Tier.DataAccess.Identity;
 
 namespace N_Tier.Application.Helpers;
-
+// TODO - fix this
 public static class JwtHelper
 {
     public static string GenerateToken(ApplicationUser user, IConfiguration configuration)
